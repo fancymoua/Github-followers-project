@@ -23,6 +23,7 @@
 		B157160C25783D9500251F8C /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B157160B25783D9500251F8C /* FollowerCell.swift */; };
 		B157161325783E1B00251F8C /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B157161225783E1B00251F8C /* GFAvatarImageView.swift */; };
 		B157161625785D2A00251F8C /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B157161525785D2A00251F8C /* UIHelper.swift */; };
+		B157161D25797D2A00251F8C /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B157161C25797D2A00251F8C /* GFEmptyStateView.swift */; };
 		B18A99612576C1F30096A430 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18A99602576C1F30096A430 /* AppDelegate.swift */; };
 		B18A99632576C1F30096A430 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18A99622576C1F30096A430 /* SceneDelegate.swift */; };
 		B18A996A2576C1F60096A430 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B18A99692576C1F60096A430 /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 		B157160B25783D9500251F8C /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		B157161225783E1B00251F8C /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		B157161525785D2A00251F8C /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		B157161C25797D2A00251F8C /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 		B18A995D2576C1F30096A430 /* Github-followers-project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Github-followers-project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B18A99602576C1F30096A430 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B18A99622576C1F30096A430 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				B15715E42577021000251F8C /* GFBodyLabel.swift */,
 				B15715F4257718F400251F8C /* GFAlertContainerView.swift */,
 				B157161225783E1B00251F8C /* GFAvatarImageView.swift */,
+				B157161C25797D2A00251F8C /* GFEmptyStateView.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				B15715EC25770C2100251F8C /* UIViewController+ext.swift in Sources */,
 				B15715D62576CBA700251F8C /* FavoritesListVC.swift in Sources */,
 				B15715D92576D35600251F8C /* GFButton.swift in Sources */,
+				B157161D25797D2A00251F8C /* GFEmptyStateView.swift in Sources */,
 				B18A997A2576CB370096A430 /* SearchVC.swift in Sources */,
 				B15715FD257806C000251F8C /* User.swift in Sources */,
 				B157160C25783D9500251F8C /* FollowerCell.swift in Sources */,

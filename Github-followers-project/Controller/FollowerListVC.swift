@@ -51,6 +51,15 @@ class FollowerListVC: UIViewController {
             }
             
             self.followersArray.append(contentsOf: followers)
+            if followers.isEmpty {
+                let message = "This user doesn't have any followers"
+                DispatchQueue.main.async {
+                    self.showEmptyStateView(with: message, in: self.view)
+                    return
+                }
+            }
+            
+            
             self.updateData()
         }
     }
@@ -79,6 +88,8 @@ class FollowerListVC: UIViewController {
             self.datasource.apply(snapshot, animatingDifferences: true)
         }
     }
+    
+    
 
 }
 
