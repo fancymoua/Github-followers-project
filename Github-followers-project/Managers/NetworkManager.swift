@@ -7,13 +7,15 @@ class NetworkManager {
     // these two lines make it a singleton
     static let shared = NetworkManager()
     
-    let baseURL = "https://api.github.com/users/"
+    private let baseURL = "https://api.github.com/users/"
+    
+    let cache = NSCache<NSString, UIImage>()
     
     private init() {}
     
     func getFollowers(for username: String, page: Int, completed: @escaping ([Follower]?, ErrorMessageEnum?) -> Void) {
         
-        let endpoint = baseURL + "\(username)/followers?per_page=25&page=\(page)"
+        let endpoint = baseURL + "\(username)/followers?per_page=100&page=\(page)"
         
         // check URL is valid
         guard let url = URL(string: endpoint) else {
