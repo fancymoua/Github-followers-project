@@ -20,7 +20,7 @@ class GFTitleLabel: UILabel {
     }
     
     private func configure() {
-        textColor = .white
+        textColor = .label
         adjustsFontSizeToFitWidth = true
         minimumScaleFactor = 0.9
         lineBreakMode = .byTruncatingTail
